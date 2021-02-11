@@ -1,0 +1,4 @@
+def puploch_scorer(estimator, X, y):
+	val = X.loc[:, "item_value"]
+	score = - (max(y - estimator) * (0.5 + 0.1 * val) + max(estimator - y) * (0.5 * val))
+	return score
