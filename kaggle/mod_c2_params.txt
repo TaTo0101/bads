@@ -1,0 +1,1 @@
+{'colsample_bytree': 0.2, 'eta': 0.11875846703030267, 'gamma': 1.4336053260716228, 'lambda': 4.3772465034815164, 'max_depth': 10, 'n_estimators': 15, 'subsample': 0.7}
